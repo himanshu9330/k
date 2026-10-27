@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  body {
+    background-color: #F8F3EA;
+    color: #241A16;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #1C130E;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Elegant Espresso Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EFE6D8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8D6A57;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2B1D17;
+}
+
+/* Card Surface Class */
+.cream-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2D5C3;
+  box-shadow: 0 2px 8px -2px rgba(43, 29, 23, 0.06);
+  border-radius: 0.875rem;
+}
+
+.cream-card-subtle {
+  background-color: #FAF6EF;
+  border: 1px solid #E6DAC8;
+  border-radius: 0.75rem;
+}
+
+/* Print Optimization for Reports */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .cream-card {
+    border: 1px solid #DDD !important;
+    box-shadow: none !important;
+  }
+}

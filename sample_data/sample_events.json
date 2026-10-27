@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-08-12T19:00:01Z",
+    "event_type": "failed_login",
+    "username": "root",
+    "source_ip": "198.51.100.99",
+    "service": "ssh",
+    "port": 22,
+    "status": "failed",
+    "raw_log": "Aug 12 19:00:01 auth sshd: Failed password for root from 198.51.100.99"
+  },
+  {
+    "timestamp": "2026-08-12T19:00:04Z",
+    "event_type": "failed_login",
+    "username": "admin",
+    "source_ip": "198.51.100.99",
+    "service": "ssh",
+    "port": 22,
+    "status": "failed",
+    "raw_log": "Aug 12 19:00:04 auth sshd: Failed password for admin from 198.51.100.99"
+  },
+  {
+    "timestamp": "2026-08-12T19:00:08Z",
+    "event_type": "failed_login",
+    "username": "administrator",
+    "source_ip": "198.51.100.99",
+    "service": "ssh",
+    "port": 22,
+    "status": "failed",
+    "raw_log": "Aug 12 19:00:08 auth sshd: Failed password for administrator from 198.51.100.99"
+  },
+  {
+    "timestamp": "2026-08-12T19:00:12Z",
+    "event_type": "failed_login",
+    "username": "postgres",
+    "source_ip": "198.51.100.99",
+    "service": "ssh",
+    "port": 22,
+    "status": "failed",
+    "raw_log": "Aug 12 19:00:12 auth sshd: Failed password for postgres from 198.51.100.99"
+  }
+]

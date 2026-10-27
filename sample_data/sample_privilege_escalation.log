@@ -1,0 +1,2 @@
+Aug 12 16:20:11 production-node sudo: user_test : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Aug 12 16:20:15 production-node sudo: user_test : TTY=pts/2 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod 777 /etc/passwd
